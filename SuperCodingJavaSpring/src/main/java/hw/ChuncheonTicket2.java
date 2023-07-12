@@ -1,3 +1,5 @@
+package hw;
+
 public class ChuncheonTicket2 {
     public static void main(String[] args){
         int freeTickets = 1111;
