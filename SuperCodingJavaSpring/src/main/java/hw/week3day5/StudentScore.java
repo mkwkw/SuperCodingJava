@@ -1,4 +1,4 @@
-package hw;
+package hw.week3day5;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

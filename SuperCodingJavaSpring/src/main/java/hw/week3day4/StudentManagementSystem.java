@@ -1,4 +1,6 @@
-package hw;
+package hw.week3day4;
+
+import hw.week3day4.Student;
 
 import java.util.ArrayList;
 

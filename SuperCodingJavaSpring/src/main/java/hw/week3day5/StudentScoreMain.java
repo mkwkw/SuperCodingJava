@@ -1,4 +1,6 @@
-package hw;
+package hw.week3day5;
+
+import hw.week3day5.StudentScore;
 
 import java.util.Arrays;
 

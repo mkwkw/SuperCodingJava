@@ -1,4 +1,4 @@
-package hw;
+package hw.week3day4;
 
 public class Student {
     private String name;

@@ -1,4 +1,7 @@
-package hw;
+package hw.week3day4;
+
+import hw.week3day4.Student;
+import hw.week3day4.StudentManagementSystem;
 
 // 메인 함수
 public class StudentManagementSystemMain {

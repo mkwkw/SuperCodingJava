@@ -1,4 +1,4 @@
-package hw;
+package hw.week3day3;
 
 public class MovieAge {
 

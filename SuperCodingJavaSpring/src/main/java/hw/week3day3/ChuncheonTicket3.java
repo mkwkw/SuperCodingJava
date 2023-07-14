@@ -1,4 +1,4 @@
-package hw;
+package hw.week3day3;
 
 import java.util.ArrayList;
 import java.util.List;
