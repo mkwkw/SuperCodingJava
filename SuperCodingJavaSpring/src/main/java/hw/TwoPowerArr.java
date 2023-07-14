@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class twoPowerArr {
+public class TwoPowerArr {
 
     //문제: arr의 길이가 2의 정수 거듭제곱이 되도록 arr 뒤에 최소한의 개수에 정수 0을 추가하는 함수를 만들어라.
     static int[] makeTwoPowerArr(int[] arr){
