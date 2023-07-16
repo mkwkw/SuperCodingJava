@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Customer {
 
-    private long money;
-    private boolean likeDelivery;
+    private long money; //잔액
+    private boolean likeDelivery; //배송 선호 여부
 
     public Customer(long money, boolean likeDelivery){
         this.money = money;
@@ -54,8 +54,5 @@ public class Customer {
     public void sayComeAgain(){
         System.out.println("고객: 다음에 다시 올게요.");
     }
-
-
-
 
 }

@@ -2,7 +2,7 @@ package hw.week3project;
 
 public class DeliveryManager {
 
-    private long sales;
+    private long sales; //매상
 
     public DeliveryManager(long sales) {
         this.sales = sales;
@@ -23,4 +23,5 @@ public class DeliveryManager {
     public void deliverPackage(){
         System.out.println("배송 담당자: 패키지를 전달합니다.");
     }
+
 }

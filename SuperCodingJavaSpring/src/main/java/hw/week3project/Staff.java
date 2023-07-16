@@ -2,7 +2,7 @@ package hw.week3project;
 
 public class Staff {
 
-    private long sales;
+    private long sales; //매상
 
     public Staff(long sales) {
         this.sales = sales;

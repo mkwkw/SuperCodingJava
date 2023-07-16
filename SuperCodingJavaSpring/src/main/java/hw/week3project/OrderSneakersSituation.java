@@ -10,12 +10,12 @@ public class OrderSneakersSituation {
 
         String nikeSneakersFeature = "안정감"; // 안정감 | 편안함 | 가벼움 등 신발 특징
         long nikeSneakersPrice = 50_000;
-        boolean havingNikeSneakersInStore = true; // 매장 Nike sneakers 재고 여부
+        boolean havingNikeSneakersInStore = false; // 매장 Nike sneakers 재고 여부
 
         int daysForDeliver = 3;
         int costForDeliver = 15_000;
 
-        Customer customer = new Customer(100000, false);
+        Customer customer = new Customer(100000, true);
         DeliveryManager deliveryManager = new DeliveryManager(100000);
         Staff staff = new Staff(100000);
 
@@ -37,7 +37,6 @@ public class OrderSneakersSituation {
             else{ //재고가 없는 경우 - 배송 요청
                 if(customer.isLikeDelivery()){ //배송 선호
                     staff.saySneakersPrice(nikeSneakersPrice);
-                    customer.buySneakers(nikeSneakersPrice);
                     staff.addSales(nikeSneakersPrice);
                     staff.askSneakers();
                     deliveryManager.sayDeliveryInfo(daysForDeliver, costForDeliver);
