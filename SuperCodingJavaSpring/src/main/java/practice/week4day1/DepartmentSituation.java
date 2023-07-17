@@ -13,7 +13,8 @@ public class DepartmentSituation {
         Customer[] customerQueue = {
                 new Customer("권율"), new Customer("이순신"), new VIPCustomer("광해군"),
                 new VIPCustomer("유성룡"), new Customer("김좌진"), customer,
-                new Customer("장원영"), customer, new VIPCustomer("김혜수")
+                new Customer("장원영"), customer, new VIPCustomer("김혜수"),
+                new GoldCustomer("하니"), new GoldCustomer("정우성"), new GoldCustomer("손흥민")
         };
 
         //시나리오
