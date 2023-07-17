@@ -1,6 +1,6 @@
 package practice.week4_day1.interface_practice;
 
-public class Bird extends Animal {
+public class Bird extends Animal implements Flyable{
 
     private long weight;
     private String color;
@@ -15,6 +15,7 @@ public class Bird extends Animal {
         System.out.println("새가 잠을 자고 있습니다.");
     }
 
+    @Override
     public void fly(){
         System.out.println("새가 날고 있습니다.");
     }

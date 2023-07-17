@@ -1,9 +1,10 @@
 package practice.week4_day1.interface_practice;
 
-public class Person extends Animal {
+public class Person extends Animal implements Walkable{
 
     private String job;
     private int height;
+    private String name;
 
     @Override
     public void eat(String food) {
@@ -15,7 +16,16 @@ public class Person extends Animal {
         System.out.println("사람이 잠을 자고 있습니다.");
     }
 
+    @Override
     public void walk(){
         System.out.println("사람이 걷고 있습니다.");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
