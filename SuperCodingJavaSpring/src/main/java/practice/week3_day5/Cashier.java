@@ -1,4 +1,4 @@
-package practice.week3day5;
+package practice.week3_day5;
 
 public class Cashier {
 

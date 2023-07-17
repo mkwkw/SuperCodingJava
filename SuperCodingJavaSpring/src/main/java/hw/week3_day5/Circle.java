@@ -1,6 +1,4 @@
-package hw.week3day5;
-
-import hw.week3day5.Shape;
+package hw.week3_day5;
 
 class Circle extends Shape {
     private static final double PI = 3.14;

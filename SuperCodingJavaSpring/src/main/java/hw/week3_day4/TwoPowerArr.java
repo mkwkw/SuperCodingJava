@@ -1,8 +1,6 @@
-package hw.week3day4;
+package hw.week3_day4;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class TwoPowerArr {
 

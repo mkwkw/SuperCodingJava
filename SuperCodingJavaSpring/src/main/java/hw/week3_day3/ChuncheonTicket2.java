@@ -1,4 +1,4 @@
-package hw.week3day3;
+package hw.week3_day3;
 
 public class ChuncheonTicket2 {
     public static void main(String[] args){

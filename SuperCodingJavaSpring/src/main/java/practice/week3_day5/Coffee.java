@@ -1,4 +1,4 @@
-package practice.week3day5;
+package practice.week3_day5;
 
 //아메리카노 커피는 물 500ml와 원두 30g으로 만들어진다.
 //아메리카노 커피는 테이크 아웃용으로 포장된다.

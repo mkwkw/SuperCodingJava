@@ -1,6 +1,4 @@
-package hw.week3project;
-
-import java.util.Arrays;
+package hw.week3_project;
 
 public class Customer {
 

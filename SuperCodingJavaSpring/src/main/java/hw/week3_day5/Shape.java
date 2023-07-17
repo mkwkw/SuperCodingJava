@@ -1,4 +1,4 @@
-package hw.week3day5;
+package hw.week3_day5;
 
 class Shape {
     protected String color;

@@ -1,6 +1,5 @@
-package hw.week3day5;
+package hw.week3_day5;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class StudentScore {

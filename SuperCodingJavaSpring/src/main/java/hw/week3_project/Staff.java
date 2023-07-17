@@ -1,4 +1,4 @@
-package hw.week3project;
+package hw.week3_project;
 
 public class Staff {
 
