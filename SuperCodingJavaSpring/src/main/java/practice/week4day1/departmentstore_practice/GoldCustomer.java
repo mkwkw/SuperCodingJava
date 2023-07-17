@@ -1,6 +1,8 @@
-package practice.week4day1;
+package practice.week4day1.departmentstore_practice;
 
-public class GoldCustomer extends Customer{
+import practice.week4day1.departmentstore_practice.Customer;
+
+public class GoldCustomer extends Customer {
 
     private double discountRatio;
 
