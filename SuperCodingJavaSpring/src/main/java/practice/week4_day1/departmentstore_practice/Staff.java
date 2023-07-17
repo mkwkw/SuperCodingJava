@@ -1,6 +1,4 @@
-package practice.week4day1.departmentstore_practice;
-
-import practice.week4day1.departmentstore_practice.Customer;
+package practice.week4_day1.departmentstore_practice;
 
 public class Staff {
 

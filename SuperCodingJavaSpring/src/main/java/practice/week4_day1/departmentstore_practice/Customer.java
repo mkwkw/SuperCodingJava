@@ -1,4 +1,4 @@
-package practice.week4day1.departmentstore_practice;
+package practice.week4_day1.departmentstore_practice;
 
 public class Customer {
 
