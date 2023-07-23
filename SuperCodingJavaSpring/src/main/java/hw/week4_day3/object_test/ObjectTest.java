@@ -1,4 +1,7 @@
-package hw.week4_day3;
+package hw.week4_day3.object_test;
+
+import hw.week4_day3.object_test.Customer;
+import hw.week4_day3.object_test.GoldCustomer;
 
 public class ObjectTest {
 
