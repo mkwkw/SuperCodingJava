@@ -1,4 +1,6 @@
-package hw.week4_day1;
+package hw.week4_day1.departmentstore;
+
+import hw.week4_day1.departmentstore.*;
 
 public class UserManageSystem {
     public static void main(String[] args){

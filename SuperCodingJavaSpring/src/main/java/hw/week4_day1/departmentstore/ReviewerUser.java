@@ -1,18 +1,8 @@
-package hw.week4_day1;
+package hw.week4_day1.departmentstore;
 
-public class SuperUser extends User implements CustomerRole, ReviewerRole, AdminRole{
-    public SuperUser(String username) {
+public class ReviewerUser extends User implements CustomerRole, ReviewerRole {
+    public ReviewerUser(String username) {
         super(username);
-    }
-
-    @Override
-    public void manageUsers(String username) {
-        AdminRole.super.manageUsers(username);
-    }
-
-    @Override
-    public void changeSettings(String username) {
-        AdminRole.super.changeSettings(username);
     }
 
     @Override

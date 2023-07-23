@@ -1,4 +1,4 @@
-package hw.week4_day1;
+package hw.week4_day1.departmentstore;
 
 public interface ReviewerRole {
 

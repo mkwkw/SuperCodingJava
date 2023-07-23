@@ -1,6 +1,6 @@
-package hw.week4_day1;
+package hw.week4_day1.shape;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
 
     private static final double PI = Math.PI;
     private double radius;

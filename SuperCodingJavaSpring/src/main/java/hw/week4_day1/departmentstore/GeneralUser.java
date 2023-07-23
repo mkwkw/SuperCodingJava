@@ -1,6 +1,6 @@
-package hw.week4_day1;
+package hw.week4_day1.departmentstore;
 
-public class GeneralUser extends User implements CustomerRole{
+public class GeneralUser extends User implements CustomerRole {
 
     public GeneralUser(String username) {
         super(username);

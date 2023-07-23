@@ -1,4 +1,7 @@
-package hw.week4_day1;
+package hw.week4_day1.shape;
+
+import hw.week4_day1.shape.Circle;
+import hw.week4_day1.shape.Rectangle;
 
 public class ShapeMain {
     public static void main(String[] args) {

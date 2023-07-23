@@ -1,6 +1,6 @@
-package hw.week4_day1;
+package hw.week4_day1.shape;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
     private double width;
     private double height;
