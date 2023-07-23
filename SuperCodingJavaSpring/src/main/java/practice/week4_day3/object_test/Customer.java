@@ -1,4 +1,4 @@
-package hw.week4_day3.object_test;
+package practice.week4_day3.object_test;
 
 public class Customer {
 
