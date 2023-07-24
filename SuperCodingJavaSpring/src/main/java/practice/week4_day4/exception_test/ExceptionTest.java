@@ -31,6 +31,7 @@ public class ExceptionTest {
         }
         catch (ArithmeticException e){
             System.out.println("0으로 나눌수가 없습니다.");
+            e.printStackTrace();
         }
     }
 
