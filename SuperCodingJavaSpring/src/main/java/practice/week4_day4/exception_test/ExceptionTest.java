@@ -24,7 +24,14 @@ public class ExceptionTest {
             System.out.println("인덱스 범위를 벗어났습니다.");
         }
 
-
+        try {
+            int div = 0;
+            int data = 50/div;
+            System.out.println("data: "+data);
+        }
+        catch (ArithmeticException e){
+            System.out.println("0으로 나눌수가 없습니다.");
+        }
     }
 
     public static void makeCheckException() throws FileNotFoundException { //throws FileNotFoundException 안하면 빨간줄 표시됨. - CheckException - 반드시 고쳐야함.
