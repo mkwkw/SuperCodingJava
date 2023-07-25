@@ -15,11 +15,11 @@ public class StringUtilTest {
         System.out.println("reverse: "+str2);
 
         //3. 주어진 문자열에서 특정 문자의 개수 세기
-        int countChar = StringUtils.countChar(str, target);
+        int countChar = StringUtils.CharChecker.countChar(str, target);
         System.out.println("o의 개수: "+countChar);
 
         //4. 주어진 문자열에 특정 문자가 있는지 확인
-        boolean containChar = StringUtils.containsChar(str,target);
+        boolean containChar = StringUtils.CharChecker.containsChar(str,target);
         System.out.println("o가 있는가? "+containChar);
 
     }

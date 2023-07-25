@@ -19,18 +19,22 @@ public class StringUtils {
         return sb.toString();
     }
 
-    public static int countChar(String str, char targetChar){
-        int count = 0;
-        for(int i=0; i<str.length(); i++){
-            if(str.charAt(i)==targetChar){
-                count++;
+    //2개의 메소드를 하나의 내부 클래스로 묶기
+    public static class CharChecker{
+        public static int countChar(String str, char targetChar){
+            int count = 0;
+            for(int i=0; i<str.length(); i++){
+                if(str.charAt(i)==targetChar){
+                    count++;
+                }
             }
+            return count;
         }
-        return count;
+
+        public static boolean containsChar(String str, char targetChar){
+            return countChar(str, targetChar)>=1;
+        }
     }
 
-    public static boolean containsChar(String str, char targetChar){
-        return countChar(str, targetChar)>=1;
-    }
 
 }
