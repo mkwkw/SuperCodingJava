@@ -10,7 +10,7 @@ public class TryCatchFinallyCloseTest {
 
         FileInputStream fs = null;
         try{
-            fs = new FileInputStream("C:\\Users\\mkkw2\\Documents\\GitHub\\SuperCodingJavaSpring\\src\\main\\java\\practice\\week4_day4\\exception_test\\example.txt");
+            fs = new FileInputStream("src\\main\\java\\practice\\week4_day4\\exception_test\\example.txt");
             int i;
             while((i=fs.read())!=-1){
                 System.out.print((char)i);
