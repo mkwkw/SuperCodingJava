@@ -1,6 +1,11 @@
 package practice.week4_day5.socket_programming;
 
-public class Customer {
+import java.io.Serializable;
+
+public class Customer implements Serializable {
+
+    //직렬화 고유 번호
+    private final long serialVersionUID = 1L;
 
     //속성
     static int serialNums = 1;
