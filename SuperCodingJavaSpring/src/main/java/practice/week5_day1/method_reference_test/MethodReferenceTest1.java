@@ -1,8 +1,6 @@
 package practice.week5_day1.method_reference_test;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 public class MethodReferenceTest1 {
 
