@@ -1,7 +1,10 @@
 package practice.week5_day1.method_reference_test;
 
+import practice.week5_day1.annotation_test.MyAnnotation;
+
 import java.io.Serializable;
 
+@MyAnnotation(name = "클래스(ElementType.TYPE)")
 public class Customer implements Serializable {
 
     //직렬화 고유 번호
@@ -17,6 +20,7 @@ public class Customer implements Serializable {
     protected double bonusPointRatio;
 
     //행위
+    @MyAnnotation(name = "가격 계산")
     public int calculatePrice(int price) {
         this.bonusPoint += price * bonusPointRatio;
         return price;
@@ -59,8 +63,10 @@ public class Customer implements Serializable {
                 '}';
     }
 
+
     //equals() 재정의 - ID가 같으면 같은 객체로 판단
     @Override
+    @MyAnnotation(name = "Equal")
     public boolean equals(Object obj){
         if(obj==null){
             return false;
