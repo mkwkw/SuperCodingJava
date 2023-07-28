@@ -9,6 +9,8 @@ import java.io.IOException;
 
 public class FileEncryptionExample {
     public static void main(String[] args) throws IOException {
+
+        //http://www.jasypt.org/api/jasypt/1.8/org/jasypt/encryption/pbe/StandardPBEStringEncryptor.html
         String encryptedOutputFilePath = "C:\\Users\\mkkw2\\Documents\\GitHub\\SuperCodingJavaSpring\\src\\main\\java\\hw\\week5_day2\\encrypted_abc.txt";
         String decryptedOutputFilePath = "SuperCodingJavaSpring/src/main/java/hw/week5_day2/encrypted_abc.txt";
 
