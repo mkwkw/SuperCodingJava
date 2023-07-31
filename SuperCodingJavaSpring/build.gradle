@@ -14,6 +14,15 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 // https://mvnrepository.com/artifact/org.jasypt/jasypt
     implementation 'org.jasypt:jasypt:1.9.3'
+
+    //MapStruct 라이브러리
+    // https://mvnrepository.com/artifact/org.mapstruct/mapstruct
+    implementation 'org.mapstruct:mapstruct:1.5.3.Final'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+
+    //JDBC
+    implementation 'mysql:mysql-connector-java:8.0.27'
+
 }
 
 test {
